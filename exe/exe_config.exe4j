@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="8.0" transformSequenceNumber="3">
+  <directoryPresets config="E:/Program Scripts/Project/Unzip-And-Search/exe/lib" />
+  <application name="Unzip_And_Search" distributionSourceDir="E:/Program Scripts/Project/Unzip-And-Search" />
+  <executable name="Unzip_And_Search" wrapperType="embed" iconSet="true" iconFile="E:/Program Scripts/Project/Unzip-And-Search/exe/image/analyzing.ico" executableMode="gui" />
+  <java mainClass="main.Main" minVersion="1.8.0">
+    <searchSequence>
+      <directory location="./exe/jdk-16.0.2" />
+    </searchSequence>
+    <classPath>
+      <archive location="E:/Program Scripts/Project/Unzip-And-Search/exe/Unzip_And_Search.jar" failOnError="false" />
+      <archive location="E:/Program Scripts/Project/Unzip-And-Search/exe/lib/commons-compress-1.21.jar" failOnError="false" />
+      <archive location="E:/Program Scripts/Project/Unzip-And-Search/exe/lib/commons-io-2.11.0.jar" failOnError="false" />
+      <archive location="E:/Program Scripts/Project/Unzip-And-Search/exe/lib/jgoodies-forms-1.8.0.jar" failOnError="false" />
+      <archive location="E:/Program Scripts/Project/Unzip-And-Search/exe/lib/xz-java-1.9.zip" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories>
+      <directory name="./exe/jdk-16.0.2" />
+      <directory name="./exe/lib" />
+    </nativeLibraryDirectories>
+  </java>
+</exe4j>

@@ -153,7 +153,7 @@ public class ModelFile {
 	        		
 	        		for(Path item : paths_filter) {
 	        			//System.out.println(item.toFile().getPath().toString());
-	        			result.add(item.toFile().getPath().toString());
+	        			result.add(item.toFile().getPath().toString()+ "\n");
         			}
 	            }
     		}
